@@ -1,9 +1,9 @@
-#Nucleo F446RE
+# Nucleo F446RE
 Test and demonstration program.
 
 **Note** The clock configuration in this project is different to the default config.
 
-###Timer based interrupt
+### Timer based interrupt
 TIM2 is configured to produce a 200kHz signal on PA10 (D2) pin.
 TIM2 is driven by clock APB1 (clock config) at 90HMz it  counts up every 11.11111ns.
 
